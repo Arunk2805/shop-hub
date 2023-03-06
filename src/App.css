@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+.navbar {
+  padding: 12px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-nav {
+  font-size: 18px;
+  /* font-weight: 600; */
+}
+.nav-item {
+  margin: 0px 15px;
+}
+.nav-link:hover {
+  color: rgb(191, 109, 250);
+}
+.navbar-brand {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+#p1 {
+  position: absolute;
+  right: 2rem;
+  top: 11rem;
+}
+#p2 {
+  position: absolute;
+  right: 9rem;
+  top: 15.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.p4 {
+  font-size: 1.2rem;
+}
+#product-content {
+  margin-top: 2.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.p5 {
+  font-size: 1.4rem;
+  padding: 0.8rem 0;
+}
+.box {
+  border: 1px solid black;
+  margin: 10px 5px;
+  padding: 4px 1.5rem;
+  border-radius: 5px;
+}
+.addButton {
+  font-size: 1.2rem;
+  margin-left: 5px;
+  position: relative;
+  bottom: 4px;
+  cursor: pointer;
+}
+.removeButton {
+  position: relative;
+  left: 17rem;
+  bottom: 3.9rem;
+}
+.remove-btn {
+  position: relative;
+  bottom: 4.5rem;
+  left: 23rem;
+}
+.cart-empty {
+  border: 2px solid rgba(140, 101, 101, 0.651);
+  border-radius: 10px;
+  padding: 3rem;
+  color: rgb(85, 6, 137);
+}
+.back {
+  border: none;
+  background: none;
+  padding: 7px 0;
+  color: rgb(85, 6, 137);
+}
+.box-center {
+  height: 350px;
+  width: 400px;
   display: flex;
   flex-direction: column;
+
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+
+  border: 2px solid rgb(45, 41, 86);
+  position: absolute;
+  left: 430px;
+  top: 160px;
+
+  border-radius: 15px ;
+  background-color:rgb(244, 244, 239)
+}
+.input-field{
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  padding: 5px 25px ;
+  margin: 0.5rem 0 ;
+  border-radius: 7px ;
+
+  
 }
 
-.App-link {
-  color: #61dafb;
+.buttons{
+  position: relative;
+  bottom: 7px
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signUp-link{
+  text-decoration: none;
+  margin: 4px 0px ;
+}
+.signUp-link:hover{
+  text-decoration: underline;
 }
